@@ -12,12 +12,17 @@ export default {
 </script>
 
 <template>
-    <footer>
-        <h5>
+    <footer class="py-4">
+        <p class="text-center">
             Found x characters
-        </h5>
+        </p>
     </footer>
 </template>
 
 <style lang="scss" scoped>
+
+footer {
+    background-color: #D48F39;
+}
+
 </style>

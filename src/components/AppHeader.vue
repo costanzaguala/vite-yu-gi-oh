@@ -12,12 +12,12 @@ export default {
 </script>
 
 <template> 
-    <header class="d-flex align-items-center">
-        <div class="logo-container">
+    <header class="d-flex align-items-center m-4">
+        <div class="logo-container pe-3">
             <img src="../assets/img/Yu-Gi-Oh_21.png" alt="">
         </div>
         <div >
-            <h1>
+            <h1 class="text-black m-0">
                 Yu-Gi-Oh Api
             </h1>
         </div>
@@ -28,20 +28,15 @@ export default {
 
 header {
     background-color: white;
-    padding: 20px;
 }
 .logo-container {
     width: 150px;
-    padding-right: 10px;
 }
 
 img {
     width: 100%;
 }
 
-h1 {
-    color: black;
-    margin: 0;
-}
+
 
 </style>
