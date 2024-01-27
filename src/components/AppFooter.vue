@@ -13,7 +13,9 @@ export default {
 
 <template>
     <footer>
-        Footer
+        <h5>
+            Found x characters
+        </h5>
     </footer>
 </template>
 

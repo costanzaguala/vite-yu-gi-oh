@@ -1,8 +1,5 @@
 @use "partials/variables.scss" as *;
 @use "partials/mixins.scss" as *;
+@import "bootstrap/scss/bootstrap";
 
 
-.display-flex {
-    display: flex;
-    align-items: center;
-}
