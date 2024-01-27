@@ -2,7 +2,7 @@
 @use "partials/mixins.scss" as *;
 
 
-h1 {
-    text-align: center;
-    color: lightcoral;
+.display-flex {
+    display: flex;
+    align-items: center;
 }
